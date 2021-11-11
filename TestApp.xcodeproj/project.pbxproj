@@ -26,6 +26,7 @@
 		94E08797273D4566001A1193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94E08799273D4566001A1193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E087BF273D4874001A1193 /* MyPackeg */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyPackeg; sourceTree = SOURCE_ROOT; };
+		94E087C3273D49C4001A1193 /* Package */ = {isa = PBXFileReference; lastKnownFileType = text; path = Package; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		94E0878A273D4564001A1193 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				94E087C3273D49C4001A1193 /* Package */,
 				94E087BF273D4874001A1193 /* MyPackeg */,
 				94E0878B273D4564001A1193 /* AppDelegate.swift */,
 				94E0878D273D4564001A1193 /* SceneDelegate.swift */,
