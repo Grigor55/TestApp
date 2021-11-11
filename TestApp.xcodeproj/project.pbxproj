@@ -13,6 +13,7 @@
 		94E08793273D4564001A1193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E08791273D4564001A1193 /* Main.storyboard */; };
 		94E08795273D4566001A1193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E08794273D4566001A1193 /* Assets.xcassets */; };
 		94E08798273D4566001A1193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E08796273D4566001A1193 /* LaunchScreen.storyboard */; };
+		94E087C2273D4890001A1193 /* MyPackeg in Frameworks */ = {isa = PBXBuildFile; productRef = 94E087C1273D4890001A1193 /* MyPackeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		94E08794273D4566001A1193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E08797273D4566001A1193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94E08799273D4566001A1193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E087BF273D4874001A1193 /* MyPackeg */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyPackeg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E087C2273D4890001A1193 /* MyPackeg in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				94E0878A273D4564001A1193 /* TestApp */,
 				94E08789273D4564001A1193 /* Products */,
+				94E087C0273D4890001A1193 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +60,7 @@
 		94E0878A273D4564001A1193 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				94E087BF273D4874001A1193 /* MyPackeg */,
 				94E0878B273D4564001A1193 /* AppDelegate.swift */,
 				94E0878D273D4564001A1193 /* SceneDelegate.swift */,
 				94E0878F273D4564001A1193 /* ViewController.swift */,
@@ -65,6 +70,13 @@
 				94E08799273D4566001A1193 /* Info.plist */,
 			);
 			path = TestApp;
+			sourceTree = "<group>";
+		};
+		94E087C0273D4890001A1193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +95,9 @@
 			dependencies = (
 			);
 			name = TestApp;
+			packageProductDependencies = (
+				94E087C1273D4890001A1193 /* MyPackeg */,
+			);
 			productName = TestApp;
 			productReference = 94E08788273D4564001A1193 /* TestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -358,6 +373,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		94E087C1273D4890001A1193 /* MyPackeg */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyPackeg;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 94E08780273D4564001A1193 /* Project object */;
 }
